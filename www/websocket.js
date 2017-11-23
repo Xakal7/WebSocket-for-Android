@@ -269,6 +269,7 @@
     WebSocket.CLOSING = 2;
     WebSocket.CLOSED = 3;
     WebSocket.pluginOptions = {};
+    WebSocket.pluginOptions.override = true;
     module.exports = WebSocket;
     window.addEventListener('message', taskQueue.listener, true);
 
